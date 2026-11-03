@@ -1,0 +1,18 @@
+# Keep the byte hashes of verified source files and snapshots stable across Git checkouts.
+* text=auto
+*.v -text
+*.sv -text
+*.py -text
+*.tcl -text
+*.xdc -text
+*.md text eol=lf
+*.bit binary
+*.hwh binary
+*.npz binary
+*.npy binary
+*.ttf binary
+*.png binary
+*.jpg binary
+*.mp4 binary
+*.zip binary
+*.pdf binary

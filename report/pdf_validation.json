@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "pages": 9,
+  "chinese_text_extraction": "PASS",
+  "metadata_privacy": "PASS",
+  "visual_check": "all pages rendered and inspected"
+}

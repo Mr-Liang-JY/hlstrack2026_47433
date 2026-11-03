@@ -1,0 +1,58 @@
+[
+  {
+    "truth_hz": 0.5,
+    "estimate": {
+      "valid": true,
+      "frequency_hz": 0.5001046157690325,
+      "samples": 300,
+      "bin_spacing_hz": 0.1,
+      "reason": "centroid-y spectral estimate",
+      "peak_bin_hz": 0.5,
+      "peak_concentration": 0.9994620495045723,
+      "period_s": 1.9995816244612272
+    },
+    "error_percent": 0.02092315380650689
+  },
+  {
+    "truth_hz": 0.8,
+    "estimate": {
+      "valid": true,
+      "frequency_hz": 0.8000083014036562,
+      "samples": 300,
+      "bin_spacing_hz": 0.1,
+      "reason": "centroid-y spectral estimate",
+      "peak_bin_hz": 0.8,
+      "peak_concentration": 0.9993198205218661,
+      "period_s": 1.2499870291913822
+    },
+    "error_percent": 0.0010376754570190494
+  },
+  {
+    "truth_hz": 1.25,
+    "estimate": {
+      "valid": true,
+      "frequency_hz": 1.250003010513463,
+      "samples": 300,
+      "bin_spacing_hz": 0.1,
+      "reason": "centroid-y spectral estimate",
+      "peak_bin_hz": 1.3,
+      "peak_concentration": 0.9793354325733822,
+      "period_s": 0.799998073276024
+    },
+    "error_percent": 0.00024084107703714608
+  },
+  {
+    "truth_hz": 2.0,
+    "estimate": {
+      "valid": true,
+      "frequency_hz": 2.0000000685109915,
+      "samples": 300,
+      "bin_spacing_hz": 0.1,
+      "reason": "centroid-y spectral estimate",
+      "peak_bin_hz": 2.0,
+      "peak_concentration": 0.9997462131701226,
+      "period_s": 0.4999999828722527
+    },
+    "error_percent": 3.4255495773294342e-06
+  }
+]

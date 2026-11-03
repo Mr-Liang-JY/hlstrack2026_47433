@@ -1,0 +1,10 @@
+{
+  "bitfile": "../hardware/day9_shm.bit",
+  "manifest": "../hardware/manifest.json",
+  "dma_ip": "axi_dma_0",
+  "input_shape": [4096],
+  "output_shape": [4096],
+  "input_dtype": "uint32",
+  "output_dtype": "uint32",
+  "timeout_s": 5
+}

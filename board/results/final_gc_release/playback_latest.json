@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "stop_reason": "completed",
+  "presented_frames": 18120,
+  "target_fps": 30,
+  "measured_presentation_fps": 30.000004200414505,
+  "presentation_interval_p95_ms": 33.49080599946319,
+  "upload_plus_vblank_mean_ms": 5.637956117825886,
+  "deadline_resets": 0,
+  "wall_s": 603.9891947739998,
+  "dropped_frames": 0,
+  "cache_mode": "ram",
+  "display_cache_bytes": 5102592,
+  "presentation_interval_max_ms": 50.074843000402325,
+  "player_sha256": "79b9f27bf22567fcfdc20316ec10947dcee195c27c9ac3a1332188a4b94fdc97",
+  "cyclic_gc": {
+    "startup_gc_s": 0.28678347599998233,
+    "startup_collected": 99,
+    "automatic_gc_suspended": true,
+    "collections_during_playback": [
+      0,
+      0,
+      0
+    ],
+    "caller_gc_state_restored": true
+  },
+  "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+}

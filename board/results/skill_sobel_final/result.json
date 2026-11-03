@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "physical_board_test": "RUN",
+  "task": "Sobel image processing",
+  "shared_runner": "pynq_tools.DmaRunner",
+  "frames": [
+    {
+      "frame": 0,
+      "comparison": {
+        "passed": true,
+        "elements": 16384,
+        "mismatches": 0,
+        "first_mismatch": null,
+        "max_absolute_error": 0.0,
+        "atol": 0.0,
+        "rtol": 0.0
+      },
+      "measurement": {
+        "dma_and_pl_wall_s": 0.0016712490005375003,
+        "tx_status": "0x00001002",
+        "rx_status": "0x00001002"
+      },
+      "roi_pass": true
+    },
+    {
+      "frame": 1,
+      "comparison": {
+        "passed": true,
+        "elements": 16384,
+        "mismatches": 0,
+        "first_mismatch": null,
+        "max_absolute_error": 0.0,
+        "atol": 0.0,
+        "rtol": 0.0
+      },
+      "measurement": {
+        "dma_and_pl_wall_s": 0.0017453729997214396,
+        "tx_status": "0x00001002",
+        "rx_status": "0x00001002"
+      },
+      "roi_pass": true
+    },
+    {
+      "frame": 2,
+      "comparison": {
+        "passed": true,
+        "elements": 16384,
+        "mismatches": 0,
+        "first_mismatch": null,
+        "max_absolute_error": 0.0,
+        "atol": 0.0,
+        "rtol": 0.0
+      },
+      "measurement": {
+        "dma_and_pl_wall_s": 0.001667501000156335,
+        "tx_status": "0x00001002",
+        "rx_status": "0x00001002"
+      },
+      "roi_pass": true
+    }
+  ]
+}

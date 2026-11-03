@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "files": 575,
+  "naming": "lowercase ASCII",
+  "privacy": "checked text and runtime ZIP",
+  "max_file_bytes": 11883227,
+  "total_file_bytes": 119366096,
+  "hardware_and_source_hashes": "PASS",
+  "software_source_hashes": "PASS",
+  "verified_board_zip_hash": "PASS",
+  "evidence_archives": 17,
+  "largest_files": [
+    {
+      "file": "data/evidence/board_noise_fixed.npz",
+      "bytes": 11883227
+    },
+    {
+      "file": "data/evidence/board_noise_time.npz",
+      "bytes": 11547328
+    },
+    {
+      "file": "data/evidence/board_noise_spatial.npz",
+      "bytes": 11171871
+    },
+    {
+      "file": "data/evidence/board_noise_spectral.npz",
+      "bytes": 10989442
+    },
+    {
+      "file": "data/evidence/paired_baseline.npz",
+      "bytes": 6488877
+    },
+    {
+      "file": "board/packages/award_video_runtime.zip",
+      "bytes": 5551373
+    },
+    {
+      "file": "skill/runtime/hardware/day9_shm.bit",
+      "bytes": 4045674
+    },
+    {
+      "file": "skill/hardware/day9_shm.bit",
+      "bytes": 4045674
+    }
+  ]
+}

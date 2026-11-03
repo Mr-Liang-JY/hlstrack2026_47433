@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "frames": 300,
+  "pixel_values_checked": 9830400,
+  "pixel_mismatches": 0,
+  "roi_or_centroid_mismatches": 0,
+  "display_cache_verified": true,
+  "software_snapshot_verified": true,
+  "backend": "pl",
+  "physical_board_processing": "PASS"
+}

@@ -1,0 +1,71 @@
+{
+  "split": "holdout",
+  "seed": 20261117,
+  "frames": 300,
+  "fs": 30,
+  "cases": {
+    "clean": [
+      0,
+      1,
+      0
+    ],
+    "noise_20": [
+      20,
+      1,
+      0
+    ],
+    "noise_35": [
+      35,
+      1,
+      0
+    ],
+    "dim_065": [
+      0,
+      0.65,
+      0
+    ],
+    "bright_130": [
+      0,
+      1.3,
+      0
+    ],
+    "flicker_9hz": [
+      8,
+      1,
+      0.3
+    ],
+    "low_contrast_noise": [
+      8,
+      0.22,
+      0
+    ],
+    "weak_contrast": [
+      0,
+      0.1,
+      0
+    ]
+  },
+  "policies": [
+    "fixed",
+    "time",
+    "spectral_v1",
+    "spatial",
+    "spectral"
+  ],
+  "params": {
+    "window": 64,
+    "warmup": 8,
+    "alpha": 0.25,
+    "max_step": 4.0,
+    "contrast_fraction": 0.7,
+    "noise_factor": 2.2,
+    "spectral_gain": 0.65,
+    "minimum": 20.0,
+    "maximum": 200.0
+  },
+  "ground_truth": "one-pixel geometric inner rectangle contour; exact mask centre-y",
+  "edge_matching": "independent precision/recall matches within one Chebyshev pixel; no one-to-one assignment",
+  "metrics_scope": "post-warmup frames index>=65; all results retained",
+  "physical_board_test": "NOT_RUN; controlled software evaluation only",
+  "policy_sha256": "368943805e611ec5f1e035b976dc81815b5502535a70321a85ed0b5f9a1ed907"
+}

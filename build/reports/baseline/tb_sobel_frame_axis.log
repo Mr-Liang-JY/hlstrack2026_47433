@@ -1,0 +1,16 @@
+Time resolution is 1 ps
+RESET_AND_PROTOCOL_CHECK PASSED
+CYCLE_METRIC case=0 total=171278 first_output=20481 output_span=150797
+FRAME 0 PASSED: 16384 pixels, ROI count=1719 ysum=115278
+CYCLE_METRIC case=1 total=171279 first_output=20481 output_span=150798
+FRAME 1 PASSED: 16384 pixels, ROI count=1461 ysum=73540
+CYCLE_METRIC case=2 total=171280 first_output=20482 output_span=150798
+FRAME 2 PASSED: 16384 pixels, ROI count=15876 ysum=1008126
+CYCLE_METRIC case=3 total=171279 first_output=20482 output_span=150797
+FRAME 3 PASSED: 16384 pixels, ROI count=6845 ysum=410933
+CYCLE_METRIC case=4 total=171280 first_output=20482 output_span=150798
+FRAME 4 PASSED: 16384 pixels, ROI count=0 ysum=0
+CYCLE_METRIC case=5 total=171279 first_output=20482 output_span=150797
+FRAME 5 PASSED: 16384 pixels, ROI count=0 ysum=0
+PASS PACKED AXIS SOBEL (6 frames; 98304 pixels; backpressure, TLAST and ROI verified)
+$finish called at time : 10277500 ns : File "<PROJECT>/sim/tb_sobel_frame_axis.sv" Line 99

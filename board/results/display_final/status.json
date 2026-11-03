@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "clock_lock": true,
+  "pixel_reset_released": true,
+  "monitor_hpd": true,
+  "framebuffer_protocol_error": false,
+  "enabled": false,
+  "first_presented": 18120,
+  "last_presented": 18120,
+  "heartbeat_transitions": 4,
+  "hardware_sha256": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "observation": "registers and heartbeat only, no monitor image quality claim"
+}

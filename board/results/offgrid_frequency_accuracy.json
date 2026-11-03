@@ -1,0 +1,91 @@
+{
+  "status": "COMPLETE",
+  "scope": "clean synthetic displaced geometric target, 300 frames at 30Hz; off FFT-bin centres; no physical accuracy claim",
+  "parameter_fitting": false,
+  "tests": [
+    {
+      "truth_hz": 0.37,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 0.36868972612697803,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 0.4,
+        "peak_concentration": 0.9940939843204106,
+        "period_s": 2.7123077458784315
+      },
+      "error_percent": 0.35412807378971917
+    },
+    {
+      "truth_hz": 0.53,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 0.5314731381740058,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 0.5,
+        "peak_concentration": 0.9944830663587875,
+        "period_s": 1.8815626382091906
+      },
+      "error_percent": 0.27795059886900736
+    },
+    {
+      "truth_hz": 0.73,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 0.7314776358448424,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 0.7000000000000001,
+        "peak_concentration": 0.9943979081587774,
+        "period_s": 1.3670957948632558
+      },
+      "error_percent": 0.20241586915649254
+    },
+    {
+      "truth_hz": 1.13,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 1.1314863636997676,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 1.1,
+        "peak_concentration": 0.9948105427288879,
+        "period_s": 0.883793240539082
+      },
+      "error_percent": 0.13153661059891456
+    },
+    {
+      "truth_hz": 1.77,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 1.7683482404155322,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 1.8,
+        "peak_concentration": 0.9938682479016455,
+        "period_s": 0.5654994741109459
+      },
+      "error_percent": 0.0933197505349061
+    },
+    {
+      "truth_hz": 2.31,
+      "estimate": {
+        "valid": true,
+        "frequency_hz": 2.3098902557511103,
+        "samples": 300,
+        "bin_spacing_hz": 0.1,
+        "reason": "centroid-y spectral estimate",
+        "peak_bin_hz": 2.3000000000000003,
+        "peak_concentration": 0.9993698522542332,
+        "period_s": 0.43292100025541197
+      },
+      "error_percent": 0.004750833285271206
+    }
+  ]
+}

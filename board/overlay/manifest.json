@@ -1,0 +1,30 @@
+{
+  "design": "award_video",
+  "part": "xc7z020clg400-1",
+  "vivado": "2024.2",
+  "display_packet_words": 8448,
+  "display_control_address": 1092812800,
+  "hardware_sha256": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "sources_sha256": {
+    "rtl/axis_framebuffer.v": "2316346b7a561e91bd904285aab68c1e6d07f427ddc358ef2ca58087f35ffb6a",
+    "rtl/font_rom.v": "b083fc52aaed63ce4cb29dfef9ba0793dd8b246304458cff961c63cfed73cfe3",
+    "rtl/native_layout.v": "0e749e8c9c54da9251d4c12b1ff646a30d96947c11aaa1e7a34c76de856f370c",
+    "rtl/reset_sync.v": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957",
+    "rtl/serializer_10to1.v": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a",
+    "rtl/sobel3x3_core.v": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04",
+    "rtl/sobel_frame_axis.v": "d1c5580111a613c073fb83652cc1892510fe489b18a40486398e586b3888ead9",
+    "rtl/tmds_encoder.v": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649",
+    "rtl/video_display.v": "37894c505ed2cb5db4628feb2814efc3c644c7ff5476580f668b87a1ed4844a6",
+    "rtl/video_timing.v": "c57709e8f3080a0d1c55a3b41530ab77e887b8ad84bc72f76f94fc54996d8c02",
+    "constraints/pynq_z2_hdmi.xdc": "25474c80a7c7a029aa6e5787f6ad45c4fbb82ff7ac91dc772e385469bb0531af"
+  },
+  "interface": {
+    "sobel_input": "128x128 uint32, grayscale[7:0]",
+    "sobel_output": "binary[7:0], saturated magnitude[15:8]",
+    "display": "8448 little-endian uint32 words, TLAST per packet",
+    "hdmi": "1280x720 60Hz"
+  }
+}

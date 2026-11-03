@@ -1,0 +1,13 @@
+{
+  "assets": [
+    {
+      "source": "data/input/dejavu_sans.ttf",
+      "runtime": "data/DejaVuSans.ttf"
+    }
+  ],
+  "board_definition": {
+    "source": "build/board_files/pynq-z2/a_0",
+    "runtime": "board_files/pynq-z2/A.0"
+  },
+  "verified_board_package_sha256": "ea3a16d0f8f076a62d171335cf0487da94dbf06e1d9aef31829adcafd7cd79be"
+}

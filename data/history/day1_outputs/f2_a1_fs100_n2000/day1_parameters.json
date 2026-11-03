@@ -1,0 +1,15 @@
+{
+  "data_source": "Python-generated sine wave; not hardware acquisition",
+  "sample_rate_hz": 100.0,
+  "sample_count": 2000,
+  "source_frequency_hz": 2.0,
+  "source_peak_amplitude_au": 1.0,
+  "sample_interval_s": 0.01,
+  "record_duration_s": 20.0,
+  "last_sample_time_s": 19.99,
+  "signal_period_s": 0.5,
+  "frequency_estimation_performed": false,
+  "python": "3.12.8",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2"
+}

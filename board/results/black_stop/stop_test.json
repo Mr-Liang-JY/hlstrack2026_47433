@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "player_stopped": true,
+  "display_black": true,
+  "clock_still_active": true,
+  "presented_before_stop": 12,
+  "stop_reason": "STOP_PLAYBACK file"
+}

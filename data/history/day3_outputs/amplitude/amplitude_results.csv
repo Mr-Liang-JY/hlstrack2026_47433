@@ -1,0 +1,4 @@
+case,reference_frequency_hz,reference_amplitude_au,estimated_frequency_hz,estimated_amplitude_au,frequency_absolute_error_hz,amplitude_relative_error_pct
+single_A0.5,2.0,0.5,2.0,0.4999999999999998,0.0,4.440892098500626e-14
+single_A1,2.0,1.0,2.0,0.9999999999999996,0.0,4.440892098500626e-14
+single_A1.5,2.0,1.5,2.0,1.4999999999999993,0.0,4.440892098500626e-14

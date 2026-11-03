@@ -1,0 +1,27 @@
+{
+  "page_url": "https://www.sg.iwant2study.org/ospsg/index.php/interactive-resources/physics/02-newtonian-mechanics/09-oscillations/225-tracker-modeling-in-spring-mass-system",
+  "video_url": "https://iwant2study.org/lookangejss/02_newtonianmechanics_8oscillations/trz/springmass/videos/Spring%20and%20mass.mp4",
+  "video_sha256": "000cee9b9bb3c929fc0060ca85df6f0bffe175311621f3f27914c423dc8496a8",
+  "prepared_sha256": "cdf7850196af44b0ac96c61163f474eaf3bf94c5ab23dbe3e941bf88c09fbd8e",
+  "publisher": "Open Educational Resources / Open Source Physics @ Singapore",
+  "license": "CC BY-SA 4.0 as declared in the source page footer",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "crop, resize 128x128, grayscale, Gaussian 3x3; derived frames kept under CC BY-SA 4.0",
+  "crop_xywh": [
+    820,
+    420,
+    240,
+    440
+  ],
+  "roi_xyxy": [
+    1,
+    22,
+    127,
+    126
+  ],
+  "frame_count": 151,
+  "fps_container_hz": 30.0,
+  "max_timestamp_error_s": 7.7021722333370235e-16,
+  "clock_note": "Video metadata/timestamps, no independent camera-clock calibration",
+  "boundary_policy": "Sobel output outer one-pixel border is ZERO, unlike day8 reflect border"
+}

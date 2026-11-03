@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "board_zip_sha256": "ea3a16d0f8f076a62d171335cf0487da94dbf06e1d9aef31829adcafd7cd79be",
+  "unpacked_to_new_directory": true,
+  "uses_only_archive_contents": true,
+  "video_frames": 151,
+  "presented_frames": 453,
+  "player_gc_state_restored": true
+}

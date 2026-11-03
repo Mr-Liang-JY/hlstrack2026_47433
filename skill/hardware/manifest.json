@@ -1,0 +1,11 @@
+{
+  "variant": "loopback",
+  "bit_sha256": "28944f2c487dc1efff83ca7e286fb8cb002f0e34d6917a9c3ed5f7eacd6c0209",
+  "hwh_sha256": "03458202015c670c6aff2df670cb55c3e12382b15d0b85fc8440969ec6d08f6b",
+  "physical_board_test": "NOT_RUN_BY_THIS_PACKAGE",
+  "origin": "New local Vivado build",
+  "sources": {
+    "rtl/sobel3x3_core.v": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04",
+    "rtl/sobel_frame_axis.v": "2f59aed790e9228c8ea3ae0ab1de675ee2d458f620e021fb7d278af0405f72ae"
+  }
+}

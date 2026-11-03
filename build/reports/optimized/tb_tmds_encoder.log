@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS TMDS: 37255 symbols, all bytes, controls, decode, transitions and DC balance
+$finish called at time : 372596 ns : File "<PROJECT>/sim/tb_tmds_encoder.sv" Line 60

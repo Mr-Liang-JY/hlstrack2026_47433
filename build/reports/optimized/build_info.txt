@@ -1,0 +1,6 @@
+Vivado: 2024.2; part: xc7z020clg400-1
+1280x720 60Hz, 1650x750 total, pixel 74.25MHz; serial 371.25MHz DDR. Native PL compositor, two 128x128 images and 1024-byte metadata, atomic double buffer.
+PS FCLK0=100MHz; dual DMA Sobel/ROI and framebuffer -> TMDS -> OSERDESE2 -> J11 HDMI OUT.
+display_control status signature [31:24]=0xA8; presented frame count [23:8].
+Physical board/display observations are separate from synthesis and simulation.
+Built: 2026-11-03 12:44:11 +0800

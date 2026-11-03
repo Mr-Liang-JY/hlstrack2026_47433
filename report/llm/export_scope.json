@@ -1,0 +1,33 @@
+{
+  "sources": [
+    {
+      "session": "session_01",
+      "source": "local conversation export",
+      "exported_messages": 59
+    },
+    {
+      "session": "session_02",
+      "source": "local conversation export",
+      "exported_messages": 77
+    },
+    {
+      "session": "session_03",
+      "source": "local conversation export",
+      "exported_messages": 1
+    },
+    {
+      "session": "session_04",
+      "source": "local conversation export",
+      "exported_messages": 50
+    }
+  ],
+  "total_messages": 187,
+  "scope": "user prompts, assistant public progress and final answers; system/developer messages, private reasoning and tool arguments are excluded",
+  "redactions": [
+    "local profile and workstation paths",
+    "private network addresses",
+    "images",
+    "application references"
+  ],
+  "note": "Historical statements may describe then-current status. Final capabilities are established by the linked verification evidence, not inferred from early answers."
+}

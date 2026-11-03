@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "stop_reason": "completed",
+  "presented_frames": 18120,
+  "target_fps": 30,
+  "measured_presentation_fps": 29.988417518850895,
+  "presentation_interval_p95_ms": 33.501456000067265,
+  "upload_plus_vblank_mean_ms": 16.66432103360372,
+  "deadline_resets": 1,
+  "wall_s": 604.2050006070003,
+  "dropped_frames": 0,
+  "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+}

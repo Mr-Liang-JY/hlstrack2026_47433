@@ -1,0 +1,2 @@
+sample_rate_hz,sample_count,reference_frequency_hz,reference_peak_amplitude_au,peak_frequency_hz,peak_amplitude_au,frequency_absolute_error_hz,amplitude_relative_error_pct,frequency_bin_spacing_hz
+100.0,1000,2.0,1.0,2.0,0.9999999999997963,0.0,2.0372592501871623e-11,0.1

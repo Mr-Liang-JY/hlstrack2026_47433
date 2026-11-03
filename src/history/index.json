@@ -1,0 +1,614 @@
+[
+  {
+    "stage": "pspl_capture",
+    "files": [
+      {
+        "file": "src/history/pspl_capture/rtl/pspl_capture_top.v",
+        "original_sha256": "f20f64ba5f9f0a9f4bc7259a806db74fd5df49cff1a6c9e74a53810656df748c",
+        "published_sha256": "f20f64ba5f9f0a9f4bc7259a806db74fd5df49cff1a6c9e74a53810656df748c"
+      },
+      {
+        "file": "src/history/pspl_capture/rtl/sample_buffer.v",
+        "original_sha256": "71befc350d25d90a24fc72af90cb4848b03eabfeef63c9fb49efa287a8439443",
+        "published_sha256": "71befc350d25d90a24fc72af90cb4848b03eabfeef63c9fb49efa287a8439443"
+      },
+      {
+        "file": "src/history/pspl_capture/python/check_board.py",
+        "original_sha256": "a28078b2d386431a509ed845519d789d519d422ab8ce1a31266d06e6061d28f5",
+        "published_sha256": "a28078b2d386431a509ed845519d789d519d422ab8ce1a31266d06e6061d28f5"
+      },
+      {
+        "file": "src/history/pspl_capture/python/day5_pspl.py",
+        "original_sha256": "b8a83d9dc96238937cf01a02cc081aaa381c75d0f55b6076eef2c2fc2cf961df",
+        "published_sha256": "b8a83d9dc96238937cf01a02cc081aaa381c75d0f55b6076eef2c2fc2cf961df"
+      },
+      {
+        "file": "src/history/pspl_capture/scripts/build_bitstream.tcl",
+        "original_sha256": "a3188afb7cc125101818fc52ca9d3e373555037c4f3cbe9649fcc63c7619e9e9",
+        "published_sha256": "a3188afb7cc125101818fc52ca9d3e373555037c4f3cbe9649fcc63c7619e9e9"
+      },
+      {
+        "file": "src/history/pspl_capture/scripts/create_project.tcl",
+        "original_sha256": "9c9c713911eb419a9d699a9592b2f01a1b37800bb424e3fd1d5a279f5af0c7f7",
+        "published_sha256": "9c9c713911eb419a9d699a9592b2f01a1b37800bb424e3fd1d5a279f5af0c7f7"
+      },
+      {
+        "file": "src/history/pspl_capture/scripts/fix_aux_reset.tcl",
+        "original_sha256": "2df681b6797b0dc595cf006e556607228cda00998d0d9665d4e67c1d15734d00",
+        "published_sha256": "2df681b6797b0dc595cf006e556607228cda00998d0d9665d4e67c1d15734d00"
+      },
+      {
+        "file": "src/history/pspl_capture/sim/tb_pspl_capture_top.v",
+        "original_sha256": "7248832fd4d9cb21ef03060fcedce7e9ce1d0e57860f593aa07825aa84b2c27c",
+        "published_sha256": "7248832fd4d9cb21ef03060fcedce7e9ce1d0e57860f593aa07825aa84b2c27c"
+      },
+      {
+        "file": "src/history/pspl_capture/tests/test_driver.py",
+        "original_sha256": "975d2593f50ce5cd23ca0c80506bea2ba4e52a53ae3f7084f6c2024834e33b00",
+        "published_sha256": "975d2593f50ce5cd23ca0c80506bea2ba4e52a53ae3f7084f6c2024834e33b00"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": null
+  },
+  {
+    "stage": "pspl_fft",
+    "files": [
+      {
+        "file": "src/history/pspl_fft/rtl/pspl_spectrum_top.v",
+        "original_sha256": "730ba63d58e2f69f9fe30c037540d736d145b1d4d7bbfb43153a13dac82cd0c1",
+        "published_sha256": "730ba63d58e2f69f9fe30c037540d736d145b1d4d7bbfb43153a13dac82cd0c1"
+      },
+      {
+        "file": "src/history/pspl_fft/rtl/sample_buffer_1000.v",
+        "original_sha256": "61f7029a1d1e1a2bb3b41731c84838c0a6bf9a3f0c8592be9e0d647f3f411d00",
+        "published_sha256": "61f7029a1d1e1a2bb3b41731c84838c0a6bf9a3f0c8592be9e0d647f3f411d00"
+      },
+      {
+        "file": "src/history/pspl_fft/rtl/sine_lut_100.v",
+        "original_sha256": "6173d1655985ba54feab4b10cf43b06b917a80cf30f3d3ad4b7c581285aba229",
+        "published_sha256": "6173d1655985ba54feab4b10cf43b06b917a80cf30f3d3ad4b7c581285aba229"
+      },
+      {
+        "file": "src/history/pspl_fft/python/check_board.py",
+        "original_sha256": "702916510b007b256656b0aa41c6ea31898ea8da27be0bdd7c0203da19aeed19",
+        "published_sha256": "702916510b007b256656b0aa41c6ea31898ea8da27be0bdd7c0203da19aeed19"
+      },
+      {
+        "file": "src/history/pspl_fft/python/day6_pspl_fft.py",
+        "original_sha256": "ba885d43417e1a8d4193b360c2bec916343b06e6d98abdea7e127439d8a58225",
+        "published_sha256": "ba885d43417e1a8d4193b360c2bec916343b06e6d98abdea7e127439d8a58225"
+      },
+      {
+        "file": "src/history/pspl_fft/scripts/build_bitstream.tcl",
+        "original_sha256": "183e41995e4db81fbc73656634d7d9e3e8cc59138b46a1df99f2660e4476d057",
+        "published_sha256": "183e41995e4db81fbc73656634d7d9e3e8cc59138b46a1df99f2660e4476d057"
+      },
+      {
+        "file": "src/history/pspl_fft/scripts/create_project.tcl",
+        "original_sha256": "f8734d78e565def73b55fb81e2d82a8a9265b4a000c65c7ebffaf0c3878937f2",
+        "published_sha256": "8100d68a237f63e6edd6cab0ff7c4ba86ed3395446e3ca8a693643fe0812fc67"
+      },
+      {
+        "file": "src/history/pspl_fft/scripts/fix_aux_reset.tcl",
+        "original_sha256": "2df681b6797b0dc595cf006e556607228cda00998d0d9665d4e67c1d15734d00",
+        "published_sha256": "2df681b6797b0dc595cf006e556607228cda00998d0d9665d4e67c1d15734d00"
+      },
+      {
+        "file": "src/history/pspl_fft/sim/tb_pspl_spectrum_top.v",
+        "original_sha256": "003967dd68d6341a0a1f45bdafaa609f3b8b7750fdca06953808e48066c30678",
+        "published_sha256": "003967dd68d6341a0a1f45bdafaa609f3b8b7750fdca06953808e48066c30678"
+      },
+      {
+        "file": "src/history/pspl_fft/tests/check_rtl_vectors.py",
+        "original_sha256": "6b7576eae52095e8c8a87895aa5faeefba1a97d432f1ea0aec6915f0e024ed85",
+        "published_sha256": "6b7576eae52095e8c8a87895aa5faeefba1a97d432f1ea0aec6915f0e024ed85"
+      },
+      {
+        "file": "src/history/pspl_fft/tests/test_driver.py",
+        "original_sha256": "ad03d012eb099ee5ee9a072efb4026e0682fe128137f8406c0a8a5d2fdee10e0",
+        "published_sha256": "ad03d012eb099ee5ee9a072efb4026e0682fe128137f8406c0a8a5d2fdee10e0"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": null
+  },
+  {
+    "stage": "sobel_roi",
+    "files": [
+      {
+        "file": "src/history/sobel_roi/rtl/sobel3x3_core.v",
+        "original_sha256": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04",
+        "published_sha256": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04"
+      },
+      {
+        "file": "src/history/sobel_roi/rtl/sobel_frame_axis.v",
+        "original_sha256": "b3b4c418a6518ad7e8c10eba4aea946b8f962ffea604483b97ade105b6186db9",
+        "published_sha256": "b3b4c418a6518ad7e8c10eba4aea946b8f962ffea604483b97ade105b6186db9"
+      },
+      {
+        "file": "src/history/sobel_roi/python/check_board.py",
+        "original_sha256": "702916510b007b256656b0aa41c6ea31898ea8da27be0bdd7c0203da19aeed19",
+        "published_sha256": "702916510b007b256656b0aa41c6ea31898ea8da27be0bdd7c0203da19aeed19"
+      },
+      {
+        "file": "src/history/sobel_roi/python/check_package.py",
+        "original_sha256": "78415944eaa123b61bff8e0762011cf16f6ffcde38a94fed2cec4d6d0c0ad278",
+        "published_sha256": "78415944eaa123b61bff8e0762011cf16f6ffcde38a94fed2cec4d6d0c0ad278"
+      },
+      {
+        "file": "src/history/sobel_roi/python/make_sim_vectors.py",
+        "original_sha256": "4732888af2fd7e6301e6d1ad6e1e1590e6ce65538fcf563aa76175cc3c21e239",
+        "published_sha256": "4732888af2fd7e6301e6d1ad6e1e1590e6ce65538fcf563aa76175cc3c21e239"
+      },
+      {
+        "file": "src/history/sobel_roi/python/prepare_video.py",
+        "original_sha256": "fa4c82dd1690e4e5b1f1a4c1f2d451b6618ae1cb969b35454974331208eed5fc",
+        "published_sha256": "fa4c82dd1690e4e5b1f1a4c1f2d451b6618ae1cb969b35454974331208eed5fc"
+      },
+      {
+        "file": "src/history/sobel_roi/python/recheck_board.py",
+        "original_sha256": "fc044bb3a4cbf88caeaf8e3bda6600994f05bfbdab1e5a29ff7a053d3d200ec4",
+        "published_sha256": "fc044bb3a4cbf88caeaf8e3bda6600994f05bfbdab1e5a29ff7a053d3d200ec4"
+      },
+      {
+        "file": "src/history/sobel_roi/python/run_board.py",
+        "original_sha256": "2f9058fe1dcd3a65f4d5a5dd5e86efb8a38b3f964d026df79edebd12b3c497ba",
+        "published_sha256": "2f9058fe1dcd3a65f4d5a5dd5e86efb8a38b3f964d026df79edebd12b3c497ba"
+      },
+      {
+        "file": "src/history/sobel_roi/python/shm_common.py",
+        "original_sha256": "73b936fc8409474c7c4359f5e6249dfe65b5422f4b0dfb0e47183000dc7378b0",
+        "published_sha256": "73b936fc8409474c7c4359f5e6249dfe65b5422f4b0dfb0e47183000dc7378b0"
+      },
+      {
+        "file": "src/history/sobel_roi/python/test_reference.py",
+        "original_sha256": "4215a24082ed886966389339fe298a46991c0172f88cfacfda60c8f3df584e35",
+        "published_sha256": "4215a24082ed886966389339fe298a46991c0172f88cfacfda60c8f3df584e35"
+      },
+      {
+        "file": "src/history/sobel_roi/python/verify_pc_delivery.py",
+        "original_sha256": "a4cd8b096ca4bbd8c602fb9362fb3ff914913dd9c7909eb2d4527d622c2ef753",
+        "published_sha256": "a4cd8b096ca4bbd8c602fb9362fb3ff914913dd9c7909eb2d4527d622c2ef753"
+      },
+      {
+        "file": "src/history/sobel_roi/python/video_preprocess.py",
+        "original_sha256": "759696c6a960af21e2802ed857cf4a6f816c52d5bfddb5114cb116376a857d25",
+        "published_sha256": "759696c6a960af21e2802ed857cf4a6f816c52d5bfddb5114cb116376a857d25"
+      },
+      {
+        "file": "src/history/sobel_roi/scripts/build_all.tcl",
+        "original_sha256": "384fea1ba069b0bfc7738e4f6be7a2f8cb31b1ee30dc71b9c681f8e378c5dd2c",
+        "published_sha256": "384fea1ba069b0bfc7738e4f6be7a2f8cb31b1ee30dc71b9c681f8e378c5dd2c"
+      },
+      {
+        "file": "src/history/sobel_roi/scripts/build_bitstream.tcl",
+        "original_sha256": "8c081a62f991a79fe95168511332999f7984a484b587526076412a36853bd773",
+        "published_sha256": "8c081a62f991a79fe95168511332999f7984a484b587526076412a36853bd773"
+      },
+      {
+        "file": "src/history/sobel_roi/scripts/create_project.tcl",
+        "original_sha256": "81781828cfacd349b1e2178b29406ed329efb6b88e238b6cfe7c716c228ebc79",
+        "published_sha256": "81781828cfacd349b1e2178b29406ed329efb6b88e238b6cfe7c716c228ebc79"
+      },
+      {
+        "file": "src/history/sobel_roi/scripts/rebuild_changed_sources.tcl",
+        "original_sha256": "60d6048ee10d1342544e84e3ff73f3d085b4b22c486d622fe70e485c350c3264",
+        "published_sha256": "60d6048ee10d1342544e84e3ff73f3d085b4b22c486d622fe70e485c350c3264"
+      },
+      {
+        "file": "src/history/sobel_roi/scripts/run_simulation.tcl",
+        "original_sha256": "d260be67938e004fc584f56cf6184abcee375595c99155a6120badac4b18d830",
+        "published_sha256": "d260be67938e004fc584f56cf6184abcee375595c99155a6120badac4b18d830"
+      },
+      {
+        "file": "src/history/sobel_roi/sim/tb_sobel_frame_axis.sv",
+        "original_sha256": "1eb3caba828fee10b2279629d1811849b182df305806caae72c25e672c98a5c6",
+        "published_sha256": "1eb3caba828fee10b2279629d1811849b182df305806caae72c25e672c98a5c6"
+      },
+      {
+        "file": "src/history/sobel_roi/sim/vectors.txt",
+        "original_sha256": "5228a54b4a8a3a6a63a753cb332af62b846fd35e28877f795aeba6ebc7b04f6f",
+        "published_sha256": "5228a54b4a8a3a6a63a753cb332af62b846fd35e28877f795aeba6ebc7b04f6f"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": null
+  },
+  {
+    "stage": "hdmi_pattern",
+    "files": [
+      {
+        "file": "src/history/hdmi_pattern/rtl/hdmi_video.v",
+        "original_sha256": "4e597c9266c472168c73f79e28fc4bf35b1b6d2ea6542719aa9a0b4c65b8b7ee",
+        "published_sha256": "4e597c9266c472168c73f79e28fc4bf35b1b6d2ea6542719aa9a0b4c65b8b7ee"
+      },
+      {
+        "file": "src/history/hdmi_pattern/rtl/reset_sync.v",
+        "original_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957",
+        "published_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957"
+      },
+      {
+        "file": "src/history/hdmi_pattern/rtl/serializer_10to1.v",
+        "original_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a",
+        "published_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a"
+      },
+      {
+        "file": "src/history/hdmi_pattern/rtl/test_pattern.v",
+        "original_sha256": "f889fef9cdd2e23d7e2aa508244ed6531a7b7dd89557577e51624f241f98f375",
+        "published_sha256": "f889fef9cdd2e23d7e2aa508244ed6531a7b7dd89557577e51624f241f98f375"
+      },
+      {
+        "file": "src/history/hdmi_pattern/rtl/tmds_encoder.v",
+        "original_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649",
+        "published_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649"
+      },
+      {
+        "file": "src/history/hdmi_pattern/rtl/video_timing.v",
+        "original_sha256": "5aad407c1328935f97e1c262d182c404deb3d85f29292eaf85e0cb87702eae70",
+        "published_sha256": "5aad407c1328935f97e1c262d182c404deb3d85f29292eaf85e0cb87702eae70"
+      },
+      {
+        "file": "src/history/hdmi_pattern/constraints/pynq_z2_hdmi.xdc",
+        "original_sha256": "9f3a32c8a5f5f8af882b7229cdebd75a6e509993597dd311c71e5a2265d82472",
+        "published_sha256": "9f3a32c8a5f5f8af882b7229cdebd75a6e509993597dd311c71e5a2265d82472"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/build_all.tcl",
+        "original_sha256": "e38ef495db8f54bf5318e39f1c1a6f10630477f1f58030ef6473fe7f854cfce6",
+        "published_sha256": "e38ef495db8f54bf5318e39f1c1a6f10630477f1f58030ef6473fe7f854cfce6"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/build_bitstream.tcl",
+        "original_sha256": "2761bdd82e770a1ff9dfbd9d86a68fb5dbffaebbea8a8e9a1a9ac89474575eb0",
+        "published_sha256": "2761bdd82e770a1ff9dfbd9d86a68fb5dbffaebbea8a8e9a1a9ac89474575eb0"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/build_hardware.tcl",
+        "original_sha256": "f63b6ab57c17618350aa27f0cdf59363e47b47dc21ebcec299f1532f61b45ad3",
+        "published_sha256": "f63b6ab57c17618350aa27f0cdf59363e47b47dc21ebcec299f1532f61b45ad3"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/create_project.tcl",
+        "original_sha256": "287076c4b9085b0ddd8262b830b7a983dfed286011dd9c48c5a71e83af18fb47",
+        "published_sha256": "287076c4b9085b0ddd8262b830b7a983dfed286011dd9c48c5a71e83af18fb47"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/package.py",
+        "original_sha256": "d14c21502d42a6ada2963660ca998a361fc155466f3b80d57466f8be36f2a2f0",
+        "published_sha256": "d14c21502d42a6ada2963660ca998a361fc155466f3b80d57466f8be36f2a2f0"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/package_board.tcl",
+        "original_sha256": "f844736d6e9ea0b61b2921e82d6cc4c3bf7ab02daee8b7a657b83a92ffe1598b",
+        "published_sha256": "f844736d6e9ea0b61b2921e82d6cc4c3bf7ab02daee8b7a657b83a92ffe1598b"
+      },
+      {
+        "file": "src/history/hdmi_pattern/scripts/run_simulation.tcl",
+        "original_sha256": "bc51790e8b42458a8d5932920cccae02a4adf80c03f28a85f5699a61f4b35296",
+        "published_sha256": "bc51790e8b42458a8d5932920cccae02a4adf80c03f28a85f5699a61f4b35296"
+      },
+      {
+        "file": "src/history/hdmi_pattern/sim/tb_serializer.sv",
+        "original_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4",
+        "published_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4"
+      },
+      {
+        "file": "src/history/hdmi_pattern/sim/tb_tmds_encoder.sv",
+        "original_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927",
+        "published_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927"
+      },
+      {
+        "file": "src/history/hdmi_pattern/sim/tb_video_timing.sv",
+        "original_sha256": "5d8bdaefdeb05a49313b63cba7c3fcdc2ac9616cd0135a5324b702dcd1dc6d20",
+        "published_sha256": "5d8bdaefdeb05a49313b63cba7c3fcdc2ac9616cd0135a5324b702dcd1dc6d20"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": null
+  },
+  {
+    "stage": "camera_trial",
+    "files": [
+      {
+        "file": "src/history/camera_trial/rtl/camera_video.v",
+        "original_sha256": "c230e417a7011d12704cebecf4eea8ae14089fbdac592f5b343bed23c30d1c5d",
+        "published_sha256": "c230e417a7011d12704cebecf4eea8ae14089fbdac592f5b343bed23c30d1c5d"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/cdc_bit.v",
+        "original_sha256": "cdeac4f92e1a35ed566c0d58572390f856c316eee580729de566f6588adc2f82",
+        "published_sha256": "cdeac4f92e1a35ed566c0d58572390f856c316eee580729de566f6588adc2f82"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/cdc_counter.v",
+        "original_sha256": "9e283c4f3de2428079226f0ece3906f96e016f9fd6bbdd137ed0136265688cad",
+        "published_sha256": "9e283c4f3de2428079226f0ece3906f96e016f9fd6bbdd137ed0136265688cad"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/dvp_framebuffer.v",
+        "original_sha256": "b4cf601ff289b54e194d435d977ed60ca8a75718980d5d6ea9c469a716aeadbe",
+        "published_sha256": "b4cf601ff289b54e194d435d977ed60ca8a75718980d5d6ea9c469a716aeadbe"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/reset_sync.v",
+        "original_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957",
+        "published_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/serializer_10to1.v",
+        "original_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a",
+        "published_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/test_pattern.v",
+        "original_sha256": "f889fef9cdd2e23d7e2aa508244ed6531a7b7dd89557577e51624f241f98f375",
+        "published_sha256": "f889fef9cdd2e23d7e2aa508244ed6531a7b7dd89557577e51624f241f98f375"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/tmds_encoder.v",
+        "original_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649",
+        "published_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649"
+      },
+      {
+        "file": "src/history/camera_trial/rtl/video_timing.v",
+        "original_sha256": "5aad407c1328935f97e1c262d182c404deb3d85f29292eaf85e0cb87702eae70",
+        "published_sha256": "5aad407c1328935f97e1c262d182c404deb3d85f29292eaf85e0cb87702eae70"
+      },
+      {
+        "file": "src/history/camera_trial/python/camera_run.py",
+        "original_sha256": "4deed1260672dc0218adfad85df06a99e8f652005a12bd765eb0b404cae84be7",
+        "published_sha256": "4deed1260672dc0218adfad85df06a99e8f652005a12bd765eb0b404cae84be7"
+      },
+      {
+        "file": "src/history/camera_trial/constraints/camera_cdc.xdc",
+        "original_sha256": "47c5118c2e085011d5c90c4f41c884ed2ebc1553a5abf0aac5ca2115904ccea8",
+        "published_sha256": "47c5118c2e085011d5c90c4f41c884ed2ebc1553a5abf0aac5ca2115904ccea8"
+      },
+      {
+        "file": "src/history/camera_trial/constraints/pynq_z2_camera.xdc",
+        "original_sha256": "1ef0b3e431272efe5e4dfdd38633774fe0c0fd301a0da9001d6b8ed195f58aa2",
+        "published_sha256": "9a73b788c1c88e27cca71369c460d7fa1314ad890ee7415879c6c6ff7da3a97a"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/build_all.tcl",
+        "original_sha256": "56833fa11f538c2c606b6b9cccf7f2f5a885ca7ebde2da26ee780da6605c9ba0",
+        "published_sha256": "56833fa11f538c2c606b6b9cccf7f2f5a885ca7ebde2da26ee780da6605c9ba0"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/build_bitstream.tcl",
+        "original_sha256": "a4860c9dddba145427ebee5e5db5987a2ab8c203d34ca3bc4d7dcc338f772771",
+        "published_sha256": "a4860c9dddba145427ebee5e5db5987a2ab8c203d34ca3bc4d7dcc338f772771"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/build_hardware.tcl",
+        "original_sha256": "86f87ea38d02ac9069169c3915c4c26be6383b48108723e86e33da67df93d267",
+        "published_sha256": "86f87ea38d02ac9069169c3915c4c26be6383b48108723e86e33da67df93d267"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/check_constraints.tcl",
+        "original_sha256": "cd1d3443bcb3358a2fad5b37b8131335b94536b5dbeb196ab3c9093958378838",
+        "published_sha256": "cd1d3443bcb3358a2fad5b37b8131335b94536b5dbeb196ab3c9093958378838"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/create_project.tcl",
+        "original_sha256": "8cf817fe26b167b1bbc536d8cd536ff856a32c427142b2b3a5d2258cebd29245",
+        "published_sha256": "8cf817fe26b167b1bbc536d8cd536ff856a32c427142b2b3a5d2258cebd29245"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/find_python.tcl",
+        "original_sha256": "3760cc25d7eae5562411145f30e024325995642a12ce558a2a419a2267131b29",
+        "published_sha256": "3760cc25d7eae5562411145f30e024325995642a12ce558a2a419a2267131b29"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/package.py",
+        "original_sha256": "79c97e874b6c5ac147d5e91a8657e757d9fb436e96de1ed0467b7c166ba1822d",
+        "published_sha256": "79c97e874b6c5ac147d5e91a8657e757d9fb436e96de1ed0467b7c166ba1822d"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/package_board.tcl",
+        "original_sha256": "d6cc126f23886b446f87d5eb465d6c871e02ca018dbfa45fc01265ae3f5c6821",
+        "published_sha256": "d6cc126f23886b446f87d5eb465d6c871e02ca018dbfa45fc01265ae3f5c6821"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/run_simulation.tcl",
+        "original_sha256": "85b1ed97724ef9db59a66dee9181a5ce108e582907627e11db3bf9a8625f7789",
+        "published_sha256": "85b1ed97724ef9db59a66dee9181a5ce108e582907627e11db3bf9a8625f7789"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/run_software_checks.tcl",
+        "original_sha256": "2b17d2ad9cbd7e000fb7e4a589e87d7c703dfb659213fb131016dfa32acd64e1",
+        "published_sha256": "2b17d2ad9cbd7e000fb7e4a589e87d7c703dfb659213fb131016dfa32acd64e1"
+      },
+      {
+        "file": "src/history/camera_trial/scripts/verify_delivery.py",
+        "original_sha256": "7272362ff0498078ec69538517ccfed8b43665ea14484a6a8ba15ca9573ddb41",
+        "published_sha256": "7272362ff0498078ec69538517ccfed8b43665ea14484a6a8ba15ca9573ddb41"
+      },
+      {
+        "file": "src/history/camera_trial/sim/tb_cdc_counter.sv",
+        "original_sha256": "c0185ffa29d075f193495acbcdce25fcf94ef13cb7a42e295f9926c8952e3072",
+        "published_sha256": "c0185ffa29d075f193495acbcdce25fcf94ef13cb7a42e295f9926c8952e3072"
+      },
+      {
+        "file": "src/history/camera_trial/sim/tb_dvp_framebuffer.sv",
+        "original_sha256": "92ce086f69bafc2c76f720242c6a38b8ab840ab297aaddf41668b6a4deeff5d0",
+        "published_sha256": "92ce086f69bafc2c76f720242c6a38b8ab840ab297aaddf41668b6a4deeff5d0"
+      },
+      {
+        "file": "src/history/camera_trial/sim/tb_serializer.sv",
+        "original_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4",
+        "published_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4"
+      },
+      {
+        "file": "src/history/camera_trial/sim/tb_tmds_encoder.sv",
+        "original_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927",
+        "published_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927"
+      },
+      {
+        "file": "src/history/camera_trial/sim/tb_video_timing.sv",
+        "original_sha256": "5d8bdaefdeb05a49313b63cba7c3fcdc2ac9616cd0135a5324b702dcd1dc6d20",
+        "published_sha256": "5d8bdaefdeb05a49313b63cba7c3fcdc2ac9616cd0135a5324b702dcd1dc6d20"
+      },
+      {
+        "file": "src/history/camera_trial/sim/test_sccb_protocol.py",
+        "original_sha256": "7ff2cc9e9cfc50439c77593b531ec12216296bd745dbc05ec0e7741f450fd7e5",
+        "published_sha256": "7ff2cc9e9cfc50439c77593b531ec12216296bd745dbc05ec0e7741f450fd7e5"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": false
+  },
+  {
+    "stage": "video_baseline",
+    "files": [
+      {
+        "file": "src/history/video_baseline/rtl/axis_framebuffer.v",
+        "original_sha256": "747ad56e6ccc5986c4cf08dd2ec17adf233346c4f4a6ae6296b4165944f399c9",
+        "published_sha256": "747ad56e6ccc5986c4cf08dd2ec17adf233346c4f4a6ae6296b4165944f399c9"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/reset_sync.v",
+        "original_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957",
+        "published_sha256": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/serializer_10to1.v",
+        "original_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a",
+        "published_sha256": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/sobel3x3_core.v",
+        "original_sha256": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04",
+        "published_sha256": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/sobel_frame_axis.v",
+        "original_sha256": "792a7fc4a334f96f0a23cdf5c4c60fe43eb319aa1ec923bca6fd1fb90ae47996",
+        "published_sha256": "792a7fc4a334f96f0a23cdf5c4c60fe43eb319aa1ec923bca6fd1fb90ae47996"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/tmds_encoder.v",
+        "original_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649",
+        "published_sha256": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/video_display.v",
+        "original_sha256": "c7827b2d2eaae81589229993ade2867220aa0c7317359328eeb7f6977877f506",
+        "published_sha256": "c7827b2d2eaae81589229993ade2867220aa0c7317359328eeb7f6977877f506"
+      },
+      {
+        "file": "src/history/video_baseline/rtl/video_timing.v",
+        "original_sha256": "c57709e8f3080a0d1c55a3b41530ab77e887b8ad84bc72f76f94fc54996d8c02",
+        "published_sha256": "c57709e8f3080a0d1c55a3b41530ab77e887b8ad84bc72f76f94fc54996d8c02"
+      },
+      {
+        "file": "src/history/video_baseline/python/board_hardware.py",
+        "original_sha256": "942233fd57ad1fac2529326247e418f4cbf09049564bf1586aec9355216cc4a4",
+        "published_sha256": "942233fd57ad1fac2529326247e418f4cbf09049564bf1586aec9355216cc4a4"
+      },
+      {
+        "file": "src/history/video_baseline/python/reference.py",
+        "original_sha256": "73b936fc8409474c7c4359f5e6249dfe65b5422f4b0dfb0e47183000dc7378b0",
+        "published_sha256": "73b936fc8409474c7c4359f5e6249dfe65b5422f4b0dfb0e47183000dc7378b0"
+      },
+      {
+        "file": "src/history/video_baseline/python/video_app.py",
+        "original_sha256": "8bfabb9d51125fdefed115c5d0d4cb4286c7955a0ca675f0a6dbb02afb72f266",
+        "published_sha256": "8bfabb9d51125fdefed115c5d0d4cb4286c7955a0ca675f0a6dbb02afb72f266"
+      },
+      {
+        "file": "src/history/video_baseline/python/video_core.py",
+        "original_sha256": "bcd911246fa3e466a4caf18a6e296edad4e5de13f6cbe9e5693f995fc9bd40ac",
+        "published_sha256": "bcd911246fa3e466a4caf18a6e296edad4e5de13f6cbe9e5693f995fc9bd40ac"
+      },
+      {
+        "file": "src/history/video_baseline/constraints/pynq_z2_hdmi.xdc",
+        "original_sha256": "25474c80a7c7a029aa6e5787f6ad45c4fbb82ff7ac91dc772e385469bb0531af",
+        "published_sha256": "25474c80a7c7a029aa6e5787f6ad45c4fbb82ff7ac91dc772e385469bb0531af"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/build_all.tcl",
+        "original_sha256": "16b5a5e0c456aa8652cb4aeb794f3cad74f9a5f21927e959ae39d44c80ab453f",
+        "published_sha256": "16b5a5e0c456aa8652cb4aeb794f3cad74f9a5f21927e959ae39d44c80ab453f"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/build_bitstream.tcl",
+        "original_sha256": "151c6faf6dd2414188b2b054dc374baa06932dd0d19f2f13b88cec9fcdce8691",
+        "published_sha256": "151c6faf6dd2414188b2b054dc374baa06932dd0d19f2f13b88cec9fcdce8691"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/build_hardware.tcl",
+        "original_sha256": "fdffc41edc08f5d2f4feea318c2bef548f727e79e20b12965831cc94798260df",
+        "published_sha256": "fdffc41edc08f5d2f4feea318c2bef548f727e79e20b12965831cc94798260df"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/create_project.tcl",
+        "original_sha256": "21434f6b31a6666f77425a40bb3dcd8c09c625f779c9d861cc9657b60a7195af",
+        "published_sha256": "21434f6b31a6666f77425a40bb3dcd8c09c625f779c9d861cc9657b60a7195af"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/package_delivery.py",
+        "original_sha256": "c6031642a0d66ba7fbdc64b1bedc3a2df6d7429944a8eb79b57ab4d66f9af998",
+        "published_sha256": "c6031642a0d66ba7fbdc64b1bedc3a2df6d7429944a8eb79b57ab4d66f9af998"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/prepare_tests.py",
+        "original_sha256": "c84dfb8c798f86bc778d93890d12817159109ba606bfdf61535141499f2f4a33",
+        "published_sha256": "c84dfb8c798f86bc778d93890d12817159109ba606bfdf61535141499f2f4a33"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/rebuild_changed.tcl",
+        "original_sha256": "8e7221b84467b3bfc73b56aa74a86f6dc649b05e7309353b3b989011020ac0c7",
+        "published_sha256": "8e7221b84467b3bfc73b56aa74a86f6dc649b05e7309353b3b989011020ac0c7"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/recheck_results.py",
+        "original_sha256": "9938ff3f726ae9b49985577298d8cdcd1760b3e598186dec261f7cc7278969cf",
+        "published_sha256": "9938ff3f726ae9b49985577298d8cdcd1760b3e598186dec261f7cc7278969cf"
+      },
+      {
+        "file": "src/history/video_baseline/scripts/run_simulation.tcl",
+        "original_sha256": "28337b648512adac7ff8e0890e201744cd7042ce9ffdfc8cabd29068382e991e",
+        "published_sha256": "28337b648512adac7ff8e0890e201744cd7042ce9ffdfc8cabd29068382e991e"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_axis_framebuffer.sv",
+        "original_sha256": "1a30468a18b4138c1113f64a2698ba9c45b32547b6da22e982802ae9f982d6ba",
+        "published_sha256": "1a30468a18b4138c1113f64a2698ba9c45b32547b6da22e982802ae9f982d6ba"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_serializer.sv",
+        "original_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4",
+        "published_sha256": "d609baf7dbfe4407e8a59406a7c15930031f0292b42b07c200bf57e8be40e1c4"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_sobel_frame_axis.sv",
+        "original_sha256": "54d2720305ee75ad752bfcd4623034433acee54f4b839d74a11ff26697c6725b",
+        "published_sha256": "54d2720305ee75ad752bfcd4623034433acee54f4b839d74a11ff26697c6725b"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_tmds_encoder.sv",
+        "original_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927",
+        "published_sha256": "a95053d059570eed0e9e0c4028dcea554acca8afef90d05fb503c0dca1813927"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_video_display.sv",
+        "original_sha256": "683fdb5d48420c518b7dbae574768cf2cacbc38ba7806474e72914a5193224fe",
+        "published_sha256": "683fdb5d48420c518b7dbae574768cf2cacbc38ba7806474e72914a5193224fe"
+      },
+      {
+        "file": "src/history/video_baseline/sim/tb_video_timing.sv",
+        "original_sha256": "44382f0624d086c8623954b381b39cc530ba8fb147125f844a4abcaefdad758f",
+        "published_sha256": "44382f0624d086c8623954b381b39cc530ba8fb147125f844a4abcaefdad758f"
+      },
+      {
+        "file": "src/history/video_baseline/sim/vectors.txt",
+        "original_sha256": "a06162756ee7d43e822ecc7facb57d52c7858b9187ea57467a8901023de7823f",
+        "published_sha256": "a06162756ee7d43e822ecc7facb57d52c7858b9187ea57467a8901023de7823f"
+      }
+    ],
+    "status": "historical source only; not a current entry point",
+    "camera_capture_verified": null
+  }
+]

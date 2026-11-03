@@ -1,0 +1,26 @@
+{
+  "data_source": "Python-generated sine wave; not hardware acquisition",
+  "input_csv": "<user-profile>\\Desktop\\fpga毕业设计\\FPGA_Thesis\\day1_outputs\\f2_a1_fs100_n1000\\day1_signal.csv",
+  "sample_rate_hz": 100.0,
+  "sample_count": 1000,
+  "record_duration_s": 10.0,
+  "frequency_bin_spacing_hz": 0.1,
+  "window": "rectangular",
+  "zero_padding": false,
+  "mean_removed_au": 1.7763568394002505e-18,
+  "analysis_band_hz": [
+    0.1,
+    10.0
+  ],
+  "peak_bin_index": 20,
+  "peak_frequency_hz": 2.0,
+  "peak_amplitude_au": 0.9999999999997963,
+  "raw_fft_peak_magnitude": 499.99999999989814,
+  "reference_frequency_hz": 2.0,
+  "reference_peak_amplitude_au": 1.0,
+  "frequency_absolute_error_hz": 0.0,
+  "amplitude_relative_error_pct": 2.0372592501871623e-11,
+  "python": "3.12.8",
+  "numpy": "2.5.4",
+  "matplotlib": "3.11.2"
+}

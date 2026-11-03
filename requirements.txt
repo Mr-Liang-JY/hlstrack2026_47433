@@ -1,0 +1,5 @@
+numpy>=1.21
+Pillow>=8
+opencv-python-headless>=4.5
+
+# PYNQ is supplied by the board image; do not install it into Windows.

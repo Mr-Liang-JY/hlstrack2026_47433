@@ -1,0 +1,21 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Nov  2 20:15:38 2026
+| Host         : [redacted]
+| Command      : report_cdc -file <PROJECT>/out/cdc.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock                    Destination Clock               CDC Type                 Exceptions  Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ------------------------------  ------------------------------  -----------------------  ----------  ---------  ----  ------  -------  ------------  
+Critical  clk_fpga_0                      clk_out1_system_video_clocks_0  User Ignored             False Path          3     2       1        0             0  
+Info      clk_out1_system_video_clocks_0  clk_fpga_0                      User Ignored             False Path          4     4       0        0             0  
+Info      input port clock                clk_fpga_0                      No Common Primary Clock  False Path          2     2       0        0             0  
+Info      input port clock                clk_out1_system_video_clocks_0  No Common Primary Clock  False Path          1     1       0        0             0  
+

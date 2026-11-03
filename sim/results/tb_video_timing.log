@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS 720p timing: two 1650x750 frames, 1843200 active pixels, positive sync
+$finish called at time : 9900016 ns : File "<project>/build/work/runtime/sim/tb_video_timing.sv" Line 19

@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "backend": "pl",
+  "physical_board_processing": "PASS",
+  "source_name": "controlled_noise.npz",
+  "source_sha256": "d7580eb952b8e54476a77f739cc0513c8fa4125801e03780031c3006489e1da4",
+  "source_fps": 30.0,
+  "processed_frames": 300,
+  "processing_size": [
+    128,
+    128
+  ],
+  "canvas_size": [
+    1280,
+    720
+  ],
+  "display_packet_words": 8448,
+  "display_compositor": "native PL images/text/plots",
+  "hdmi_signal": "1280x720 60Hz",
+  "requested_playback_fps": 30,
+  "roi_xyxy": [
+    1,
+    1,
+    127,
+    127
+  ],
+  "policy": "fixed",
+  "initial_threshold": 80,
+  "preprocessing": "prepared grayscale frames; no raw-video decoding",
+  "pixel_verification": "PASS",
+  "verified_frames": 300,
+  "total_wall_s": 9.363491007000448,
+  "wall_processing_fps": 32.03933231480762,
+  "compute_s": 2.2701784420078184,
+  "compute_fps": 132.14820229491318,
+  "compute_scope": "decode/preprocess + Sobel/ROI + motion/FFT; verification/render/cache/display excluded",
+  "final_frequency": {
+    "valid": true,
+    "frequency_hz": 0.7946939216672608,
+    "samples": 300,
+    "bin_spacing_hz": 0.1,
+    "reason": "centroid-y spectral estimate",
+    "peak_bin_hz": 0.8,
+    "peak_concentration": 0.5104017593927251,
+    "period_s": 1.2583461037452115
+  },
+  "frequency_note": "centroid-y proxy in pixels; uncalibrated source clock; df is FFT grid spacing, not accuracy",
+  "error": null,
+  "privacy": "no hostname, username, network address or credentials recorded",
+  "hardware_sha256": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "driver_sha256": "109d4ddd6e003c6a75a932454f8daab36a41e3d30bdf05487357f158c2c61c30",
+  "policy_version": "legacy_stage3",
+  "frame_cache_format": "native_packet_u32",
+  "display_cache_sha256": "621fab6c6a6ae444bd757c947f411b9e7e3f447efe0451fe1d7ec1f7edf0b84f"
+}

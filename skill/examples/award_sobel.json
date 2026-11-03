@@ -1,0 +1,21 @@
+{
+  "bitfile": "../../board/overlay/award_video.bit",
+  "manifest": "../../board/overlay/manifest.json",
+  "dma_ip": "axi_dma_0",
+  "required_ips": [
+    "axi_gpio_ctrl",
+    "axi_gpio_roi",
+    "axi_gpio_stats"
+  ],
+  "input_shape": [
+    128,
+    128
+  ],
+  "output_shape": [
+    128,
+    128
+  ],
+  "input_dtype": "uint32",
+  "output_dtype": "uint32",
+  "timeout_s": 5
+}

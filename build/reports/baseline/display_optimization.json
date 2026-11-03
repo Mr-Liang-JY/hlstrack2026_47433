@@ -1,0 +1,31 @@
+{
+  "comparison": "explicit uint32 shift/or packing vs little-endian uint32 view",
+  "before": {
+    "status": "PASS",
+    "stop_reason": "completed",
+    "presented_frames": 453,
+    "target_fps": 30,
+    "measured_presentation_fps": 30.000252063179968,
+    "presentation_interval_p95_ms": 33.514251199949285,
+    "upload_plus_vblank_mean_ms": 32.979308827822386,
+    "deadline_resets": 0,
+    "wall_s": 15.104036370999893,
+    "dropped_frames": 0,
+    "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+  },
+  "after": {
+    "status": "PASS",
+    "stop_reason": "completed",
+    "presented_frames": 453,
+    "target_fps": 30,
+    "measured_presentation_fps": 30.00023137877547,
+    "presentation_interval_p95_ms": 33.43606999992517,
+    "upload_plus_vblank_mean_ms": 4.806488048554746,
+    "deadline_resets": 0,
+    "wall_s": 15.07167549099995,
+    "dropped_frames": 0,
+    "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+  },
+  "same_cache_sha256": "9a131380af4411f9572c0230826afe3efe2c508c066dd71af37c6c6e356298b6",
+  "scope": "host packing + DMA + vertical-blank acknowledgment; not pure DMA or PL time"
+}

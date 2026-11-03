@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "backend": "pl",
+  "physical_board_processing": "PASS",
+  "source_name": "spring_mass.mp4",
+  "source_sha256": "000cee9b9bb3c929fc0060ca85df6f0bffe175311621f3f27914c423dc8496a8",
+  "source_fps": 30.0,
+  "processed_frames": 151,
+  "processing_size": [
+    128,
+    128
+  ],
+  "canvas_size": [
+    1280,
+    720
+  ],
+  "display_packet_words": 8448,
+  "display_compositor": "native PL images/text/plots",
+  "hdmi_signal": "1280x720 60Hz",
+  "requested_playback_fps": 30,
+  "roi_xyxy": [
+    1,
+    22,
+    127,
+    126
+  ],
+  "policy": "spectral_v1",
+  "initial_threshold": 80,
+  "preprocessing": "PS OpenCV decode / crop / gray / scale / Gaussian",
+  "pixel_verification": "PASS",
+  "verified_frames": 151,
+  "total_wall_s": 26.229984392000006,
+  "wall_processing_fps": 5.756770486148445,
+  "compute_s": 16.594250285010276,
+  "compute_fps": 9.099537334109005,
+  "compute_scope": "decode/preprocess + Sobel/ROI + motion/FFT; verification/render/cache/display excluded",
+  "final_frequency": {
+    "valid": true,
+    "frequency_hz": 0.9213844180472041,
+    "samples": 151,
+    "bin_spacing_hz": 0.1986754966887417,
+    "reason": "centroid-y spectral estimate",
+    "peak_bin_hz": 0.9933774834437087,
+    "peak_concentration": 0.9830127806796931,
+    "period_s": 1.085323324784909
+  },
+  "frequency_note": "centroid-y proxy in pixels; uncalibrated source clock; df is FFT grid spacing, not accuracy",
+  "error": null,
+  "privacy": "no hostname, username, network address or credentials recorded",
+  "hardware_sha256": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "driver_sha256": "50bc08eda35a7b1873978f22d12446a5f1b02430d2a151b8ca4e9037935f4f16",
+  "policy_version": "legacy_stage3",
+  "frame_cache_format": "native_packet_u32",
+  "display_cache_sha256": "2be6df167ad751edfcde0a355ceda94bb8b45d24b6098caa6065d7b52aa72287"
+}

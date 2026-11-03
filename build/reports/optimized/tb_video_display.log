@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+PASS native compositor: 921600 pixels; image scales, ASCII glyphs, ROI, plots, pipeline alignment
+$finish called at time : 32661792354 ps : File "<PROJECT>/sim/tb_video_display.sv" Line 30
+INFO: xsimkernel Simulation Memory Usage: 47288 KB (Peak: 47288 KB), Simulation CPU Usage: 57421 ms

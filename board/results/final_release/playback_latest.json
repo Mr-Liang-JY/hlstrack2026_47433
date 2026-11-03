@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "stop_reason": "completed",
+  "presented_frames": 18120,
+  "target_fps": 30,
+  "measured_presentation_fps": 29.985939026636714,
+  "presentation_interval_p95_ms": 33.533038899531675,
+  "upload_plus_vblank_mean_ms": 15.319828522018458,
+  "deadline_resets": 1,
+  "wall_s": 604.2652413639998,
+  "dropped_frames": 0,
+  "cache_mode": "ram",
+  "display_cache_bytes": 5102592,
+  "presentation_interval_max_ms": 333.5065350001969,
+  "player_sha256": "c611d0c000443b1266cd7363f347f04675b8b3c74b169f76938552daa34eac49",
+  "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+}

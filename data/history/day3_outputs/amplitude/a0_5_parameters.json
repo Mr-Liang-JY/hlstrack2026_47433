@@ -1,0 +1,16 @@
+{
+  "data_source": "Python-generated simulated sine signal; not hardware acquisition",
+  "sample_rate_hz": 100.0,
+  "sample_count": 1000,
+  "record_duration_s": 10.0,
+  "frequency_bin_spacing_hz": 0.1,
+  "window": "rectangular",
+  "zero_padding": false,
+  "mean_removed": true,
+  "reference_components": [
+    {
+      "frequency_hz": 2.0,
+      "peak_amplitude_au": 0.5
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "scope": "same-board Sobel magnitude/binary + ROI; host and DMA included; input prepared in RAM; decode, policy, display, validation excluded",
+  "repeats": 3,
+  "backends": {
+    "ps_numpy": {
+      "frames": 453,
+      "mean_ms": 10.523778735077778,
+      "p95_ms": 10.783518399875902,
+      "fps": 95.02290243587197
+    },
+    "ps_opencv": {
+      "frames": 453,
+      "mean_ms": 5.097875026503429,
+      "p95_ms": 5.180558999927598,
+      "fps": 196.160163754718
+    },
+    "pl": {
+      "frames": 453,
+      "mean_ms": 4.691390765999892,
+      "p95_ms": 4.797180800051137,
+      "fps": 213.15640710369743
+    }
+  },
+  "warmup_frames_per_backend": 3,
+  "benchmark_sha256": "d0148e4e0a15833fa09172ffb62706fcd1795effab06532b2784da257c284300",
+  "driver_sha256": "c904142cc1c3a8b6f638dec0952bb6d4e69f14b44009ada7e49e727aa88c25cc",
+  "hardware_sha256": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "numpy_to_pl_mean_time_ratio": 2.243210864323473,
+  "opencv_to_pl_mean_time_ratio": 1.0866447245131372
+}

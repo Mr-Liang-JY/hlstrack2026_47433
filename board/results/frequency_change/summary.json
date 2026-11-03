@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "input": "synthetic phase-continuous displacement, not physical fault diagnosis",
+  "fs": 30.0,
+  "window": 512,
+  "change_s": 20.0,
+  "old_hz": 1.0,
+  "new_hz": 1.5,
+  "tolerance_fraction": 0.15,
+  "first_alarm_s": 29.366666666666667,
+  "detection_delay_s": 9.366666666666667,
+  "prechange_false_alarm_frames": 0,
+  "final_estimate_hz": 1.4992925764327254
+}

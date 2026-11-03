@@ -1,0 +1,392 @@
+{
+  "hardware": {
+    "baseline": {
+      "luts": 4354.0,
+      "flip_flops": 6381.0,
+      "bram_tiles": 136.5,
+      "bram_percent": 97.5,
+      "wns_ns": 0.885,
+      "whs_ns": 0.006,
+      "cdc_critical_rows": 1
+    },
+    "optimized": {
+      "luts": 4500.0,
+      "flip_flops": 6345.0,
+      "bram_tiles": 37.0,
+      "bram_percent": 26.42857142857143,
+      "wns_ns": 2.048,
+      "whs_ns": 0.018,
+      "cdc_critical_rows": 0
+    }
+  },
+  "rtl_simulation_cycles": {
+    "baseline": {
+      "mean_cycles": 171279.16666666666,
+      "first_pixel_cycles": [
+        20481,
+        20481,
+        20482,
+        20482,
+        20482,
+        20482
+      ]
+    },
+    "optimized": {
+      "mean_cycles": 25366.666666666668,
+      "first_pixel_cycles": [
+        166,
+        168,
+        166,
+        166,
+        166,
+        167
+      ]
+    }
+  },
+  "rtl_simulation_cycle_ratio": 6.752135348226018,
+  "paired_pipeline": {
+    "paired_baseline": {
+      "frames": 151,
+      "wall_s": 52.11982537400036,
+      "compute_s": 17.20062224698904,
+      "mean_ms": {
+        "decode_preprocess_s": 103.17737681455866,
+        "dma_pl_s": 5.903287543068117,
+        "verification_s": 11.026844741687059,
+        "analysis_s": 3.6654272185444747,
+        "render_s": 78.86652771522249
+      },
+      "source_sha256": "000cee9b9bb3c929fc0060ca85df6f0bffe175311621f3f27914c423dc8496a8"
+    },
+    "paired_native": {
+      "frames": 151,
+      "wall_s": 26.229984392000006,
+      "compute_s": 16.594250285010276,
+      "mean_ms": {
+        "decode_preprocess_s": 101.47410188743766,
+        "dma_pl_s": 4.546014662275339,
+        "verification_s": 11.337643503269502,
+        "analysis_s": 2.651605112626066,
+        "render_s": 6.828471562910286
+      },
+      "source_sha256": "000cee9b9bb3c929fc0060ca85df6f0bffe175311621f3f27914c423dc8496a8"
+    },
+    "wall_time_ratio": 1.9870322679222259,
+    "scope": "combined hardware/UI/cache/debug-I/O changes; not a pure PL compute speedup"
+  },
+  "paired_byte_identical": {
+    "gray_frames": true,
+    "edge_frames": true,
+    "magnitude_frames": true
+  },
+  "board_algorithm_scores": [
+    {
+      "case": "noise",
+      "policy": "fixed",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.09091294588604946,
+      "recall": 1.0,
+      "f1": 0.16665942771713574,
+      "position_rmse_px": 7.10314203368419,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.7946939216672608,
+      "frequency_error_percent": 0.6632597915924021
+    },
+    {
+      "case": "noise",
+      "policy": "time",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.1710447738397652,
+      "recall": 1.0,
+      "f1": 0.29194464948118753,
+      "position_rmse_px": 6.35196541483475,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.8014748772796905,
+      "frequency_error_percent": 0.18435965996130288
+    },
+    {
+      "case": "noise",
+      "policy": "spatial",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.288409447529902,
+      "recall": 1.0,
+      "f1": 0.44740952819245927,
+      "position_rmse_px": 5.215681312960107,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.8011406763457659,
+      "frequency_error_percent": 0.14258454322073344
+    },
+    {
+      "case": "noise",
+      "policy": "spectral",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.4492276664890258,
+      "recall": 1.0,
+      "f1": 0.6191335481572017,
+      "position_rmse_px": 3.647011370178029,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.8028045585597503,
+      "frequency_error_percent": 0.35056981996878234
+    },
+    {
+      "case": "weak",
+      "policy": "fixed",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "position_rmse_px": null,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": null,
+      "frequency_error_percent": null
+    },
+    {
+      "case": "weak",
+      "policy": "time",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "position_rmse_px": null,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": null,
+      "frequency_error_percent": null
+    },
+    {
+      "case": "weak",
+      "policy": "spatial",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "position_rmse_px": 0.0,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.7987485807809467,
+      "frequency_error_percent": 0.1564274023816703
+    },
+    {
+      "case": "weak",
+      "policy": "spectral",
+      "physical_board_test": "PASS",
+      "frames": 300,
+      "evaluation_frames": 235,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "position_rmse_px": 0.0,
+      "truth_frequency_hz": 0.8,
+      "estimate_hz": 0.7987485807809467,
+      "frequency_error_percent": 0.1564274023816703
+    }
+  ],
+  "ps_optimized_pl_benchmark": {
+    "status": "PASS",
+    "scope": "same-board Sobel magnitude/binary + ROI; host and DMA included; input prepared in RAM; decode, policy, display, validation excluded",
+    "repeats": 3,
+    "backends": {
+      "ps_numpy": {
+        "frames": 453,
+        "mean_ms": 10.523778735077778,
+        "p95_ms": 10.783518399875902,
+        "fps": 95.02290243587197
+      },
+      "ps_opencv": {
+        "frames": 453,
+        "mean_ms": 5.097875026503429,
+        "p95_ms": 5.180558999927598,
+        "fps": 196.160163754718
+      },
+      "pl": {
+        "frames": 453,
+        "mean_ms": 4.691390765999892,
+        "p95_ms": 4.797180800051137,
+        "fps": 213.15640710369743
+      }
+    },
+    "warmup_frames_per_backend": 3,
+    "benchmark_sha256": "d0148e4e0a15833fa09172ffb62706fcd1795effab06532b2784da257c284300",
+    "driver_sha256": "c904142cc1c3a8b6f638dec0952bb6d4e69f14b44009ada7e49e727aa88c25cc",
+    "hardware_sha256": {
+      "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+      "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+    },
+    "numpy_to_pl_mean_time_ratio": 2.243210864323473,
+    "opencv_to_pl_mean_time_ratio": 1.0866447245131372
+  },
+  "long_playback": {
+    "status": "PASS",
+    "stop_reason": "completed",
+    "presented_frames": 18120,
+    "target_fps": 30,
+    "measured_presentation_fps": 30.000004200414505,
+    "presentation_interval_p95_ms": 33.49080599946319,
+    "upload_plus_vblank_mean_ms": 5.637956117825886,
+    "deadline_resets": 0,
+    "wall_s": 603.9891947739998,
+    "dropped_frames": 0,
+    "cache_mode": "ram",
+    "display_cache_bytes": 5102592,
+    "presentation_interval_max_ms": 50.074843000402325,
+    "player_sha256": "79b9f27bf22567fcfdc20316ec10947dcee195c27c9ac3a1332188a4b94fdc97",
+    "cyclic_gc": {
+      "startup_gc_s": 0.28678347599998233,
+      "startup_collected": 99,
+      "automatic_gc_suspended": true,
+      "collections_during_playback": [
+        0,
+        0,
+        0
+      ],
+      "caller_gc_state_restored": true
+    },
+    "observation": "hardware acknowledgments; visible monitor quality needs physical observation"
+  },
+  "frequency_step": {
+    "status": "PASS",
+    "input": "synthetic phase-continuous displacement, not physical fault diagnosis",
+    "fs": 30.0,
+    "window": 512,
+    "change_s": 20.0,
+    "old_hz": 1.0,
+    "new_hz": 1.5,
+    "tolerance_fraction": 0.15,
+    "first_alarm_s": 29.366666666666667,
+    "detection_delay_s": 9.366666666666667,
+    "prechange_false_alarm_frames": 0,
+    "final_estimate_hz": 1.4992925764327254
+  },
+  "cache_bytes_per_frame": {
+    "baseline": 230400,
+    "optimized": 33792,
+    "reduction_percent": 85.33333333333333
+  },
+  "scope": {
+    "processing_size": [
+      128,
+      128
+    ],
+    "hdmi_signal": [
+      1280,
+      720,
+      60
+    ],
+    "file_playback_fps": 30,
+    "mode": "offline processing, then real-time playback",
+    "monitor_image_quality": "requires physical observer; not established by handshakes",
+    "algorithm_limitations": "controlled synthetic tests; no universal superiority; real source frequency has no independently calibrated truth"
+  },
+  "release_archive_verification": {
+    "status": "PASS",
+    "board_zip_sha256": "ea3a16d0f8f076a62d171335cf0487da94dbf06e1d9aef31829adcafd7cd79be",
+    "unpacked_to_new_directory": true,
+    "uses_only_archive_contents": true,
+    "video_frames": 151,
+    "presented_frames": 453,
+    "player_gc_state_restored": true
+  },
+  "offgrid_frequency_accuracy": {
+    "status": "COMPLETE",
+    "scope": "clean synthetic displaced geometric target, 300 frames at 30Hz; off FFT-bin centres; no physical accuracy claim",
+    "parameter_fitting": false,
+    "tests": [
+      {
+        "truth_hz": 0.37,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 0.36868972612697803,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 0.4,
+          "peak_concentration": 0.9940939843204106,
+          "period_s": 2.7123077458784315
+        },
+        "error_percent": 0.35412807378971917
+      },
+      {
+        "truth_hz": 0.53,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 0.5314731381740058,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 0.5,
+          "peak_concentration": 0.9944830663587875,
+          "period_s": 1.8815626382091906
+        },
+        "error_percent": 0.27795059886900736
+      },
+      {
+        "truth_hz": 0.73,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 0.7314776358448424,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 0.7000000000000001,
+          "peak_concentration": 0.9943979081587774,
+          "period_s": 1.3670957948632558
+        },
+        "error_percent": 0.20241586915649254
+      },
+      {
+        "truth_hz": 1.13,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 1.1314863636997676,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 1.1,
+          "peak_concentration": 0.9948105427288879,
+          "period_s": 0.883793240539082
+        },
+        "error_percent": 0.13153661059891456
+      },
+      {
+        "truth_hz": 1.77,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 1.7683482404155322,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 1.8,
+          "peak_concentration": 0.9938682479016455,
+          "period_s": 0.5654994741109459
+        },
+        "error_percent": 0.0933197505349061
+      },
+      {
+        "truth_hz": 2.31,
+        "estimate": {
+          "valid": true,
+          "frequency_hz": 2.3098902557511103,
+          "samples": 300,
+          "bin_spacing_hz": 0.1,
+          "reason": "centroid-y spectral estimate",
+          "peak_bin_hz": 2.3000000000000003,
+          "peak_concentration": 0.9993698522542332,
+          "period_s": 0.43292100025541197
+        },
+        "error_percent": 0.004750833285271206
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+test_preserves_disabled_caller (test_playback_guard.GuardChecks.test_preserves_disabled_caller) ... ok
+test_restores_after_player_error (test_playback_guard.GuardChecks.test_restores_after_player_error) ... ok
+test_unbounded_mode_keeps_automatic_gc (test_playback_guard.GuardChecks.test_unbounded_mode_keeps_automatic_gc) ... ok
+test_dma_error_saves_status_and_resets_before_free (test_skill_failures.FailureChecks.test_dma_error_saves_status_and_resets_before_free) ... ok
+test_timeout_saves_status_and_resets_before_free (test_skill_failures.FailureChecks.test_timeout_saves_status_and_resets_before_free) ... ok
+test_causal_threshold (test_software.UpgradeChecks.test_causal_threshold) ... ok
+test_drift_calibration_and_invalid_estimate (test_software.UpgradeChecks.test_drift_calibration_and_invalid_estimate) ... ok
+test_drift_requires_three_distinct_valid_updates (test_software.UpgradeChecks.test_drift_requires_three_distinct_valid_updates) ... ok
+test_invalid_motion (test_software.UpgradeChecks.test_invalid_motion) ... ok
+test_known_frequencies (test_software.UpgradeChecks.test_known_frequencies) ... ok
+test_no_hardware_import (test_software.UpgradeChecks.test_no_hardware_import) ... ok
+test_packet_and_image_mapping (test_software.UpgradeChecks.test_packet_and_image_mapping) ... ok
+test_reference_matches_opencv (test_software.UpgradeChecks.test_reference_matches_opencv) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.073s
+
+OK

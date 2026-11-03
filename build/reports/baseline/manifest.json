@@ -1,0 +1,33 @@
+{
+  "design": "video_stage3",
+  "part": "xc7z020clg400-1",
+  "vivado": "2024.2",
+  "hardware_sha256": {
+    "video_stage3.bit": "ce1458eeaff783546eaa20eae47a1cd31fdcd783202481b590dba836ae9c920b",
+    "video_stage3.hwh": "587203b985dfc14180662401d7313dedf4bfb84bfece7ed3878700485a4094b1"
+  },
+  "display_control_address": 1092812800,
+  "sources_sha256": {
+    "rtl/axis_framebuffer.v": "747ad56e6ccc5986c4cf08dd2ec17adf233346c4f4a6ae6296b4165944f399c9",
+    "rtl/reset_sync.v": "bcb29d54601c099db18bae9b00ddc366644e1df49b3271e54b8c03e65ed49957",
+    "rtl/serializer_10to1.v": "cd4634f6706eaf1f7ff9ced4e53526a8f1c7cff790ec3bd948e0496e9fa5979a",
+    "rtl/sobel3x3_core.v": "d5700c9054a018c68301a5e9bc4055d5fec68de3967a40877fdb371df5f18e04",
+    "rtl/sobel_frame_axis.v": "792a7fc4a334f96f0a23cdf5c4c60fe43eb319aa1ec923bca6fd1fb90ae47996",
+    "rtl/tmds_encoder.v": "905188f51fc976e1cb5b53bd732599c4dafa9be1716b1719b434a64090b18649",
+    "rtl/video_display.v": "c7827b2d2eaae81589229993ade2867220aa0c7317359328eeb7f6977877f506",
+    "rtl/video_timing.v": "c57709e8f3080a0d1c55a3b41530ab77e887b8ad84bc72f76f94fc54996d8c02",
+    "constraints/pynq_z2_hdmi.xdc": "25474c80a7c7a029aa6e5787f6ad45c4fbb82ff7ac91dc772e385469bb0531af",
+    "scripts/build_all.tcl": "16b5a5e0c456aa8652cb4aeb794f3cad74f9a5f21927e959ae39d44c80ab453f",
+    "scripts/build_bitstream.tcl": "151c6faf6dd2414188b2b054dc374baa06932dd0d19f2f13b88cec9fcdce8691",
+    "scripts/build_hardware.tcl": "fdffc41edc08f5d2f4feea318c2bef548f727e79e20b12965831cc94798260df",
+    "scripts/create_project.tcl": "21434f6b31a6666f77425a40bb3dcd8c09c625f779c9d861cc9657b60a7195af",
+    "scripts/rebuild_changed.tcl": "8e7221b84467b3bfc73b56aa74a86f6dc649b05e7309353b3b989011020ac0c7",
+    "scripts/run_simulation.tcl": "28337b648512adac7ff8e0890e201744cd7042ce9ffdfc8cabd29068382e991e"
+  },
+  "format": {
+    "sobel_input": "128x128 uint32, low byte grayscale",
+    "sobel_output": "uint32: binary[7:0], saturated magnitude[15:8]",
+    "display_input": "640x360 uint8, four pixels/uint32, little endian, TLAST per frame",
+    "hdmi": "1280x720 60Hz; 74.25MHz pixel; 371.25MHz DDR serializer"
+  }
+}

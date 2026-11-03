@@ -1,0 +1,15 @@
+{
+  "status": "FROZEN_BEFORE_HOLDOUT",
+  "params": {
+    "window": 64,
+    "warmup": 8,
+    "alpha": 0.25,
+    "max_step": 4.0,
+    "contrast_fraction": 0.7,
+    "noise_factor": 2.2,
+    "spectral_gain": 0.65,
+    "minimum": 20.0,
+    "maximum": 200.0
+  },
+  "source_sha256": "368943805e611ec5f1e035b976dc81815b5502535a70321a85ed0b5f9a1ed907"
+}

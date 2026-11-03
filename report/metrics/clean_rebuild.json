@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "source_copy": "build/repro_check",
+  "source_hashes_identical": true,
+  "new_project_created": true,
+  "synthesis": "PASS",
+  "implementation": "PASS",
+  "setup_hold_drc": "PASS",
+  "hardware_manifest": "PASS",
+  "board_execution": "NOT_RUN_FOR_REBUILD_COPY",
+  "measured_board_hardware": {
+    "award_video.bit": "f91baceda67205a822869687e8a0ffe1092044bb7a5d7170979c00dfd2ba0b1f",
+    "award_video.hwh": "e4abad6fa3cb1e9003c99bc149c62af9cef161394f7147b2392039a7716aec3f"
+  },
+  "rebuild_copy_hardware": {
+    "award_video.bit": "48e8ac65dcb9add64e88297a0321e9942adad3b79ed032e402bc3682bd347c5e",
+    "award_video.hwh": "6a355cd7f41551de524afd6cf469ea268a1ab70dadf1d81ba85cdabf3d0e3bd5"
+  },
+  "export_environment_fix": "External Python runs with -I to ignore Vivado PYTHONHOME/PYTHONPATH; export retry passed without RTL changes"
+}

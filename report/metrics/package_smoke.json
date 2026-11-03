@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "independent_directory": true,
+  "software_tests": 13,
+  "hardware_manifest_checks": "PASS",
+  "negative_configuration_cases": "PASS"
+}

@@ -1,0 +1,9 @@
+{
+  "board": "PYNQ-Z2",
+  "architecture": "armv7l",
+  "python": "3.10.4",
+  "pynq": "3.0.1",
+  "numpy": "1.21.5",
+  "opencv": "4.5.4",
+  "pillow": "9.0.1"
+}

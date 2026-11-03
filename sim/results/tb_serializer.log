@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+PASS SERIALIZER: 128 words, 1280 bits, clock recovery and LSB-first order (UNISIM)
+$finish called at time : 5968200 ps : File "<project>/build/work/runtime/sim/tb_serializer.sv" Line 36

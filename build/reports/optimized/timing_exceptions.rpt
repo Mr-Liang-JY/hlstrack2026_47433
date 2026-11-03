@@ -1,0 +1,31 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Tue Nov  3 12:44:10 2026
+| Host         : [redacted]
+| Command      : report_exceptions -file <PROJECT>/out/timing_exceptions.rpt
+| Design       : system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Exceptions Report
+
+Position  From                      Through                                                         To                                                                                Setup           Hold            Status                            
+--------  ------------------------  --------------------------------------------------------------  --------------------------------------------------------------------------------  --------------  --------------  ----------------------------------
+3         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           
+4         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           Invalid endpoint                  
+5         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           
+6         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           
+7         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           Invalid endpoint                  
+8         *                         *                                                               [get_pins -hier *cdc_to*/D]                                                       false           false           Invalid endpoint                  
+9         [get_ports button_reset]  *                                                               *                                                                                 false           false           
+10        [get_ports hdmi_hpd_n]    *                                                               *                                                                                 false           false           
+11        *                         *                                                               [get_pins -hier -regexp {.*\/(ack_sync|req_sync|enable_sync|hpd_sync|alive_sync|  false           false           Partially overridden path by FP 10
+                                                                                                    rstn_sync|lock_sync|have_sync)_reg\[0\]/D}]                                                                       
+12        *                         *                                                               [get_pins -hier -regexp {.*\/(pr|rr)\/pipe_reg\[[012]\]/PRE}]                     false           false           Partially overridden path by FP 9 
+13        *                         [get_ports -scoped_to_current_instance -no_traverse src_arst]   *                                                                                 false           false           
+14        *                         [get_ports -scoped_to_current_instance -no_traverse src_arst]   *                                                                                 false           false           
+15        *                         [get_ports -scoped_to_current_instance -no_traverse src_arst]   *                                                                                 false           false           
+
